@@ -1,6 +1,7 @@
 # enterprise-network-lab
 This is a Enterprise Network and System Administrations lab that I improved upon from my old university course using cisco packet tracer. The core aim of the lab was to set up a star topology network where all devices are connected to a central device.
-<img width="695" height="539" alt="Star Topology" src="https://github.com/user-attachments/assets/738bb64f-eec8-446b-a113-c70aac2d9280" />
+
+<img width="80" height="80" alt="image" src="https://github.com/user-attachments/assets/e642e642-7956-42f6-b217-47f9c7c7db0e" />
 
 The new lab differs from the old lab in these key areas:
 1) Added a router and the internet to the network instead of just having the devices and the switch.
