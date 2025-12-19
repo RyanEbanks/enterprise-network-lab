@@ -29,10 +29,10 @@ This part of the project is a basic display of Nagios Core and Nagios Cross-Plat
 [![Watch the video](https://github.com/user-attachments/assets/a0f586be-f48e-4b4b-bb2d-e346644dc0cf)](https://youtu.be/l43_DVRSUuo)
 
 ## Installing Linux
-1) Normally when installing linux you would need to get a flash drive of proper size (usually 8GB or more) and you would burn the ISO of the operating system unto the flashdrive allowing you delete the old operating system without any complications. I didn't have this option so I allocated memory on my laptop and separated it from my C drive allowing me to install the Linux giving it its own reserved space.
+1) Normally, installing linux requires creating a bootable USB drive (usually 8GB or more) by flashing the OS ISO (burning the OS unto the USB). This allows you to replace the existing operating system cleanly. Since I didn't have access to a USB I decided to allocate disk space on my C drive to create a separate partition to install Linux wwith it's own dedicated storage.
    
-3) Afterwhich I went into the BIOS and turned off secure boot which allows me to bypass Windows permission and delte the operating system.
+2) Afterwhich I accessed the BIOS and disbaled Secure Boot which allos the system to boot up a non Windows operating system.
    
-5) In order to do so I need the Machine Owner Key which I had stored in a safe place. After I used GRUB configuration to finish the installation of Linux.
+3) To complete this, I used the Machine Owner Key (MOK) to finish the Secure Boot configuration and finalized it by installing Ubuntu Linux using GRUB as the bootloader.
    
-7) The allocated memory that wasn't Linux was then merged to give me back needed space after ensuring Windows was fully removed.
+4) Once Linux was installed, I removed the remaining partitions holding Windows and merged the unused disk space with the Linux storage to reclaim memory.
