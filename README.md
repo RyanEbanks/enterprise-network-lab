@@ -5,7 +5,7 @@ This is a Enterprise Network and System Administrations lab that I improved upon
 
 The new lab differs from the old lab in these key areas:
 1) Added a router and the internet to the network instead of just having the devices and the switch.
-2) Created virual devices using VirtualBox to simulate real-world devices on a network alongside a physical which held Windows 11 but was replaced with Ubuntu Linux to have different operating systems on the network.
+2) Created virtual devices using VirtualBox to simulate real-world devices on a network alongside a physical which held Windows 11 but was replaced with Ubuntu Linux to have different operating systems on the network.
 3) Utilized Nagios to monitor the network paired with the simulation from cisco packet tracer to demonstrate end to end routing, and switching concepts.
 
 ## Table of Contents
